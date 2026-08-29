@@ -1,7 +1,6 @@
 # OmaBlue
 
-A crisp blue-and-white theme for [Omarchy](https://omarchy.org/), inspired by
-the classic Windows PowerShell console.
+A crisp blue-and-white theme for [Omarchy](https://omarchy.org/).
 
 ![OmaBlue preview](preview.png)
 
@@ -50,6 +49,20 @@ omarchy theme set omablue
 OmaBlue defines a semantic Omarchy palette in `colors.toml`. Omarchy safely
 generates matching configurations for Alacritty, Foot, Ghostty, Kitty, btop,
 Helix, Chromium, the Omarchy shell, and other supported applications.
+
+## Optional Terminal Transparency
+
+Omarchy themes installed from Git repositories cannot ship executable
+Hyprland Lua, so transparency remains an explicit user preference. Add this to
+`~/.config/hypr/looknfeel.lua` for a wallpaper-visible terminal:
+
+```lua
+o.window({ tag = "terminal" }, { opacity = "0.82 0.76" })
+```
+
+Reload Hyprland with `hyprctl reload`. Omarchy's built-in
+`Super + Backspace` shortcut then toggles the focused terminal between this
+transparency and full opacity.
 
 ## License
 
