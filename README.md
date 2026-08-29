@@ -24,6 +24,16 @@ To select it again later:
 omarchy theme set omablue
 ```
 
+## Wallpapers
+
+<table>
+  <tr>
+    <td><img src="backgrounds/01-main-cat-and-moon.png" width="260" alt="Cat beneath a crescent moon"></td>
+    <td><img src="backgrounds/02-birds-over-lake.png" width="260" alt="Birds flying over a lake"></td>
+    <td><img src="backgrounds/03-birds-and-hills.png" width="260" alt="Birds flying over hills"></td>
+  </tr>
+</table>
+
 ## Palette
 
 | Role | Color |
