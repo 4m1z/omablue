@@ -4,18 +4,13 @@ A crisp blue-and-white theme for [Omarchy](https://omarchy.org/).
 
 <img width="1672" height="941" alt="preview" src="https://github.com/user-attachments/assets/c1f91581-d6c5-4d22-8f30-466395005dbf" />
 
-
 ## Highlights
 
-- Classic PowerShell blue `#012456` surfaces
-- High-contrast white foreground text
+- Deep blue `#012456` surfaces with high-contrast white text
 - Readable ANSI colors tuned for the blue background
 - White-to-blue active window borders
 - Three blue-and-white illustrated wallpapers
 - Automatic themes for Omarchy-supported terminals and applications
-
-The cat-and-moon wallpaper is selected by default. Use the Omarchy background
-switcher to cycle through the two bird-and-landscape alternatives.
 
 ## Installation
 
@@ -23,8 +18,7 @@ switcher to cycle through the two bird-and-landscape alternatives.
 omarchy theme install https://github.com/4m1z/omablue.git
 ```
 
-The installer clones the repository and applies the theme. To select it again
-later, run:
+To select it again later:
 
 ```sh
 omarchy theme set omablue
@@ -45,29 +39,6 @@ omarchy theme set omablue
 | Magenta | `#D6A8FF` |
 | Cyan | `#72E6E6` |
 
-## How It Works
-
-OmaBlue defines a semantic Omarchy palette in `colors.toml`. Omarchy safely
-generates matching configurations for Alacritty, Foot, Ghostty, Kitty, btop,
-Helix, Chromium, the Omarchy shell, and other supported applications.
-
-## Optional Terminal Transparency
-
-Omarchy themes installed from Git repositories cannot ship executable
-Hyprland Lua, so transparency remains an explicit user preference. Add this to
-`~/.config/hypr/looknfeel.lua` for a wallpaper-visible terminal:
-
-```lua
-o.window({ tag = "terminal" }, { opacity = "0.82 0.76" })
-```
-
-Reload Hyprland with `hyprctl reload`. Omarchy's built-in
-`Super + Backspace` shortcut then toggles the focused terminal between this
-transparency and full opacity.
-
 ## License
 
 [MIT](LICENSE)
-
-OmaBlue is an independent community theme and is not affiliated with or
-endorsed by Microsoft.
