@@ -11,8 +11,11 @@ the classic Windows PowerShell console.
 - High-contrast white foreground text
 - Readable ANSI colors tuned for the blue background
 - White-to-blue active window borders
-- Solid 4K wallpaper without logos or visual noise
+- Three blue-and-white illustrated wallpapers
 - Automatic themes for Omarchy-supported terminals and applications
+
+The cat-and-moon wallpaper is selected by default. Use the Omarchy background
+switcher to cycle through the two bird-and-landscape alternatives.
 
 ## Installation
 
