@@ -2,7 +2,8 @@
 
 A crisp blue-and-white theme for [Omarchy](https://omarchy.org/).
 
-![OmaBlue preview](preview.png)
+<img width="1672" height="941" alt="preview" src="https://github.com/user-attachments/assets/c1f91581-d6c5-4d22-8f30-466395005dbf" />
+
 
 ## Highlights
 
